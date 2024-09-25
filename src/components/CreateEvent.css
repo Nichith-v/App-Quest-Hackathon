@@ -1,0 +1,52 @@
+input.form-control,
+textarea.form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px; 
+}
+
+input.form-control::placeholder,
+textarea.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+    outline: none; 
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+input.form-control,
+textarea.form-control {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px; 
+}
+
+input.form-control::placeholder,
+textarea.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+    outline: none; 
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+    border-radius: 10px;
+}
