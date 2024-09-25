@@ -38,6 +38,10 @@ const CreateEvent = () => {
                     <input type="text" className="form-control" name="title" onChange={handleChange} required />
                 </div>
                 <div className="mb-3">
+                    <label className="form-label">Form URL</label>
+                    <input type="url" className="form-control" name="formUrl" onChange={handleChange} required />
+                </div>
+                <div className="mb-3">
                     <label className="form-label">Description</label>
                     <textarea className="form-control" name="description" onChange={handleChange} required />
                 </div>
